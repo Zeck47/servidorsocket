@@ -1,7 +1,7 @@
 const net = require('net');
 const port = 8000;
-const host = '127.0.0.1';
-const mensagem = 'Olá, servidor!';
+const host = '127.0.0.1'; // 
+const mensagem = 'Olá, servidor!'; // MEnsagem enviada após conectar o servidor
 
 const client = new net.Socket();
 client.connect(port, host, () => {
