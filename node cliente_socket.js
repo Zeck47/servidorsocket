@@ -1,7 +1,7 @@
 const net = require('net'); // A requisição da Net
 const port = 8000; // Configurar porta de entrada
 const host = '127.0.0.1'; // Tipo de hospedagem associada ao servidor do cliente
-const mensagem = 'Olá, servidor!'; // MEnsagem enviada após conectar o servidor
+const mensagem = 'Olá, servidor!'; // Mensagem enviada após conectar o servidor
 
 const client = new net.Socket();
 client.connect(port, host, () => {
